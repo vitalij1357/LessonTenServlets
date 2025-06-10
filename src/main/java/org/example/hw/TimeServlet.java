@@ -25,7 +25,7 @@ public class TimeServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         ClassLoaderTemplateResolver resolver = new ClassLoaderTemplateResolver();
-        resolver.setPrefix("/Users/ALEX/IdeaProjects/Gproject/LessonTenServlets/src/main/resources/webapp/WEB-INF/templates/");
+        resolver.setPrefix("webapp/Web-inf/templates/");
         resolver.setSuffix(".html");
         resolver.setTemplateMode("HTML");
         resolver.setCharacterEncoding("UTF-8");
